@@ -4,10 +4,10 @@ public class AquarioLombriga {
     int pos_head;
     String lado_lomb;
     
-    AquarioLombriga(int size_aqua, int size_lomb, int pos_tail) {
+    AquarioLombriga(int size_aqua, int size_lomb, int pos_head) {
         this.size_aqua = size_aqua;
         this.size_lomb = size_lomb;
-        this.pos_head = pos_tail + (size_lomb - 1);
+        this.pos_head = pos_head;
         this.lado_lomb = "dir";
     }
     
