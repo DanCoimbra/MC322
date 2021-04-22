@@ -1,4 +1,5 @@
 public class Piece {
+	// Objeto Peça que armazena sua localização.
 	int[] location;
 
 	public Piece(int i, int j) {
