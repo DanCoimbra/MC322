@@ -5,7 +5,7 @@ public class AppRestaUm {
 	// O arquivo solution.csv fornece uma jogatina perfeita do Resta Um sem jogadas inválidas.
 	
 	public static void main (String[] args) {
-		String filepath = "../../../data/solution.csv";
+		String filepath = "../../../testes/solution.csv";
 		executaJogo(filepath);
 	}
 
